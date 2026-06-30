@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Zap, Disc3, ClipboardCheck, Cpu, MapPin, Phone, Clock, ArrowRight, CheckCircle2 } from 'lucide-react'
+import { Wrench, Zap, Disc3, ClipboardCheck, Cpu, MapPin, Phone, Clock, ArrowRight, CheckCircle2 } from 'lucide-react'
 import heroEngine from './assets/hero-engine.png'
 import heroWorkshop from './assets/hero-workshop.png'
 import logoImg from './assets/logo.png'
