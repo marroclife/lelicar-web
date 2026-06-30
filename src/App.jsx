@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import { Wrench, Zap, Disc3, ClipboardCheck, Cpu, MapPin, Phone, Clock, ArrowRight, CheckCircle2 } from 'lucide-react'
+import heroEngine from './assets/hero-engine.png'
+import heroWorkshop from './assets/hero-workshop.png'
 import './App.css'
 
 const services = [
@@ -153,7 +155,7 @@ export default function App() {
           >
             <div className="relative aspect-square lg:aspect-[4/3] rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-black/50">
               <img 
-                src="/src/assets/hero-engine.png" 
+                src={heroEngine} 
                 className="absolute inset-0 w-full h-full object-cover" 
                 alt="High performance engine precision" 
               />
@@ -248,7 +250,7 @@ export default function App() {
               className="relative rounded-3xl overflow-hidden border border-white/10 bg-lelicar-graphite aspect-[4/3] shadow-2xl shadow-black/40"
             >
               <img 
-                src="/src/assets/hero-workshop.png" 
+                src={heroWorkshop} 
                 className="absolute inset-0 w-full h-full object-cover opacity-60" 
                 alt="Futuristic Automotive Workshop" 
               />
