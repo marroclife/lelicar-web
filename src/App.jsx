@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
-import { Wrench, Zap, Disc3, ClipboardCheck, Cpu, MapPin, Phone, Clock, ArrowRight, CheckCircle2 } from 'lucide-react'
+import { Zap, Disc3, ClipboardCheck, Cpu, MapPin, Phone, Clock, ArrowRight, CheckCircle2 } from 'lucide-react'
 import heroEngine from './assets/hero-engine.png'
 import heroWorkshop from './assets/hero-workshop.png'
+import logoImg from './assets/logo.png'
 import './App.css'
 
 const services = [
@@ -91,9 +92,7 @@ export default function App() {
       <nav className="relative z-50 border-b border-white/5 bg-lelicar-dark/80 backdrop-blur-md sticky top-0">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-lelicar-red rounded-lg flex items-center justify-center">
-              <Wrench className="text-white w-6 h-6" />
-            </div>
+            <img src={logoImg} alt="Lelicar Logo" className="w-10 h-10 object-contain" />
             <span className="text-xl font-bold tracking-tight">Lelicar</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm text-lelicar-muted">
@@ -367,9 +366,7 @@ export default function App() {
 
           <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-lelicar-muted">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-lelicar-red rounded-lg flex items-center justify-center">
-                <Wrench className="text-white w-4 h-4" />
-              </div>
+              <img src={logoImg} alt="Lelicar Logo" className="w-8 h-8 object-contain" />
               <span className="font-semibold text-white">Lelicar</span>
             </div>
             <p>© 2026 Centro Automotivo Lelicar. Onde a precisão encontra a confiança.</p>
